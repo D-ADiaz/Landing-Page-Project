@@ -15,12 +15,13 @@
 .header{ 
     display: flex;
    /* border: 10px solid green;*/
-    justify-content: space-around;
+    justify-content: center;
     font-family: Impact,'Arial Narrow Bold', sans-serif;
     background-color: #1F2937;
     height: 5vh;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    gap:345px;
 }
 .logo{
     font-size: 24px;
@@ -157,12 +158,11 @@ a{
 .section-3{
     display:flex;
     flex:1;
-    flex-wrap: wrap;
     background-color: #e5e7eb;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:10em 4em;
+    padding:10em 5em;
 }
 
 .quote{
@@ -194,11 +194,24 @@ a{
 .bluecontainer{
     display: flex;
     background-color: #3882f6;
-    flex-direction: column;
-    border-radius: 4px;
-    padding:1em 4em;
+    flex-direction: row;
+    border-radius: 6px;
+    padding:3em 12em;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4em 2em;
 }
-
+.callAction{
+    color:#e5e7eb;
+    font-weight: 900;
+}
+.callAction.button{
+    padding-left: 3em;
+}
+.testers{
+    color:#e5e7eb;
+    font-weight: normal;
+}
 .footer{ 
     display: flex;
     align-items: center;
